@@ -54,3 +54,18 @@
   .preco{
       width: 100px;
   }
+
+  .botao[type=limpar]{
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 3px;
+    margin-right: 25px;
+    
+  }
+
+  .botao[type=aplicar]{
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 3px;
+    color: red;
+  }
