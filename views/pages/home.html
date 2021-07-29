@@ -14,8 +14,15 @@
       rel="stylesheet"
     />
 
+    <!--add swiper-->
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
     <!-- CSS -->
-    <link rel="stylesheet" href="/public/style/home.css" />
+    <link rel="stylesheet" href="/e-commerce/public/style/home.css" />
   </head>
   <body>
     <header>
@@ -32,17 +39,33 @@
       <div class="icon-car">
         <img
           class="icon"
-          src="/public/img/icon-car.png"
+          src="/e-commerce/public/img/icon-car.png"
           alt="Carrinho de Compra"
         />
       </div>
     </header>
 
-    <banner></banner>
-    <div class="carrousel"></div>
+    <div class="banner swiper-container">
+      
+      <div class="swiper-wrapper">
+        <div class="card swiper-slide"><img src="/e-commerce/public/img/banner-img01.jpg" alt=""></div>
+        <div class="card swiper-slide"><img src="/e-commerce/public/img/banner-img02.jpg" alt=""></div>
+      </div>
+
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+  
+    
+
+    </div>
+    <div class="carousel"></div>
 
     <main></main>
 
     <footer></footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="/e-commerce/public/js/main.js"></script>
   </body>
 </html>

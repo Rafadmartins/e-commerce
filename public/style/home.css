@@ -70,3 +70,10 @@ header .icon-car .icon {
   width: 2.375rem;
   height: 1.9375rem;
 }
+
+.banner  .card img{
+
+height: 45rem;
+width: 100%;
+overflow: hidden;
+}
