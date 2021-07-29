@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/public/style/ca">
+    <link rel="stylesheet" href="/style/categorias.css">
     <title>Categorias</title>
 </head>
 <body>
@@ -16,25 +16,29 @@
 
     <main>
         <!-- caixa principal-->
-        <div class="pai">
+        <div class="filtro-pai">
 
             <!--caixa do filtro-->
             <div class="filtro">
-                <div class="topo-filtro">
-                   <img class="antena-topo-filtro" src="" alt="">
-                   <h2>Filtros</h2> 
+                <div class="filtro-main">
+                    <div class="topo-filtro">
+                       <img class="antena-topo-filtro" src="/img/funil.webp" alt="">
+                       <h2 id="filtros">Filtros</h2> 
+                    </div>
                 </div>
                 <div class="filtro-corpo">
                     <h3>Ofertas</h3>
+                    <br>
+                    <br>
                     <input type="checkbox" name="produtos-prime" id="produtos-prime"> <label for="produtos-prime">Produtos Prime</label>
                     <br>
                     <br>
 
                     <label for="valor-minimo">De: R$</label> 
-                    <input type="text" id="valor-minimo" name="valor-minimo" value="0000">
+                    <input class="preco" type="text" id="valor-minimo" name="valor-minimo" value="0000">
                     <br>
                     <label for="valor-maximo">Até: R$</label>
-                    <input type="text" id="valor-maximo"  name="valor-maximo" value="0000">
+                    <input class="preco"type="text" id="valor-maximo"  name="valor-maximo" value="0000">
                     <br>
                     <br>
                     <!--barra de rolagem-->
