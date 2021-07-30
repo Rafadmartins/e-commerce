@@ -102,15 +102,23 @@ input[type=range]{
   margin-left: 300px;
   margin-top: 100px;
 }
+.disponivel h3{
+    margin-left: 5px;
+}
+.disponivel h4{
+    color: green
+}
 .precos{
   margin-top: 80px;
 }
 .precos h6{
   font-size: 13px;
+  margin-left: 33px;
  }
 .precos h5{
   font-size: 14px;
   margin-left: 33px;
+  color: rebeccapurple;
 }
 .precos p{
   font-size: 9px;
@@ -119,7 +127,9 @@ input[type=range]{
 .precos h3{
   font-size: 20px;
   margin-left: 33px;
+  color: green;
 }
 #avista{
   margin-left: 70px;
+  font-size: 15px;
 }
