@@ -22,7 +22,7 @@
     />
 
     <!-- CSS -->
-    <link rel="stylesheet" href="/projeto-integrador/e-commerce/public/style/home.css" />
+    <link rel="stylesheet" href="/public/style/home.css" />
   </head>
   <body>
     <header>
@@ -39,35 +39,68 @@
       <div class="icon-car">
         <img
           class="icon"
-          src="/projeto-integrador/e-commerce/public/img/icon-car.png"
+          src="/public/img/icon-car.png"
           alt="Carrinho de Compra"
         />
       </div>
     </header>
-
+    <!-- Carrosel 1 -->
     <div class="banner swiper-container">
-      
       <div class="swiper-wrapper">
-        <div class="card swiper-slide"><img src="/projeto-integrador/e-commerce/public/img/banner-img01.jpg" alt=""></div>
-        <div class="card swiper-slide"><img src="/projeto-integrador/e-commerce/public/img/banner-img02.jpg" alt=""></div>
+        <div class="card swiper-slide">
+          <img src="/public/img/banner-img01.jpg" alt="" />
+        </div>
+        <div class="card swiper-slide">
+          <img src="/public/img/banner-img02.jpg" alt="" />
+        </div>
       </div>
 
       <div class="swiper-pagination"></div>
       <div class="swiper-button-prev"></div>
-  <div class="swiper-button-next"></div>
-  
-    
-
+      <div class="swiper-button-next"></div>
     </div>
-    
-    <div class="carousel"></div>
 
+    <!-- Carrosel 2 -->
+    <section class="destaques-dia">
+      <div class="container">
+        <div class="title">
+          <div class="background"><div class="h2">Destaques do Dia</div></div>
+        </div>
+
+        <div class="destaque swiper-container">
+          <div class="swiper-wrapper">
+            <div class="card swiper-slide">
+              <img
+                class="img-destaque"
+                src="/public/img/Computador.jpg"
+                alt=""
+              />
+              <div class="description">
+                <h2>Computador</h2>
+                <p>Especificações</p>
+              </div>
+            </div>
+            <div class="card swiper-slide">
+              <img class="img-destaque" src="/public/img/Ps5.jpg" alt="" />
+              <div class="description">
+                <h2>Playstation 5</h2>
+                <p>Especificações</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </div>
+    </section>
 
     <main></main>
 
     <footer></footer>
 
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script src="/projeto-integrador/e-commerce/public/js/main.js"></script>
+    <script src="/public/js/main.js"></script>
   </body>
 </html>

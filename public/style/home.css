@@ -1,6 +1,11 @@
 * {
   box-sizing: border-box;
   margin: 0;
+  font-family: 'Poppins';
+}
+
+body {
+  background: #f3f3f3;
 }
 
 li {
@@ -71,9 +76,59 @@ header .icon-car .icon {
   height: 1.9375rem;
 }
 
-.banner  .card img{
+.banner .card img {
+  height: 45rem;
+  width: 100%;
+  overflow: hidden;
+}
 
-height: 45rem;
-width: 100%;
-overflow: hidden;
+.destaque .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.destaques-dia {
+  /* margin-top: 3.125rem; */
+  background-color: #f3f3f3;
+  display: fixed;
+}
+
+.destaques-dia .title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
+.destaques-dia .title .background {
+  border-radius: 1.5rem;
+  background-color: #f3f3f3;
+  width: 470px;
+  margin-top: 1.25rem;
+}
+
+.destaques-dia .title .h2 {
+  color: #bc002e;
+  text-decoration: none;
+  font-size: 2.1875rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 900 'Poppins' sans-serif;
+  font-size: 32px;
+}
+
+.destaques-dia .container {
+  margin-right: 2.5rem;
+  margin-left: 2.5rem;
+  background-color: white;
+  border-radius: 0.625rem;
+  margin-top: 2.5rem;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.15);
+}
+
+.destaques-dia .img-destaque {
+  /* padding: 1.875rem; */
+  margin-bottom: 45px;
 }
