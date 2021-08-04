@@ -1,0 +1,211 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+}
+
+body{
+    font-family: Arial;
+}
+
+#logo{
+    align-items: flex-end;
+    border-style: solid;
+    font-size: 20px;
+    padding: 5px;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-left: 30px;
+}
+
+#navlist{
+    font-style: italic;
+    font-size: 15px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.navitem{
+    padding: 10px;
+}
+
+#prodPath{
+    display: flex;
+    flex-direction: row;
+    font-size: small;
+}
+
+#filtro{
+    text-align: center;
+    background-color:cyan;
+    border-style: solid;
+    border-color: darkblue;
+    border-width: 1px;
+    border-radius: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    height: 800px;
+    width: 200px;
+}
+
+#header2{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+}
+
+#body2{
+    display: flex;
+    flex-direction: row;
+    justify-content:first baseline;
+    padding: 0px;
+    
+}
+
+#info{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    padding: 10px;
+}
+
+#marca{
+    border: 1px lightgray solid;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+#review{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-left: solid 1px lightslategray;
+    padding-left: 50px;
+    font-size: 14px;
+}
+
+#top{
+    border-style: solid;
+    border-color: gray;
+    border-width: 0.5px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#mid{
+    border-style: solid;
+    border-color: gray;
+    border-width: 0.5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 350px;
+    height: auto;
+    text-align: center;
+    padding: 25px;
+}
+
+#bot{
+    background-color: lightgray;
+    width: 400px;
+    height: 100px;
+    margin-top: 10px;
+}
+
+#buyArea{
+    border-style: solid;
+    border-color: gray;
+    border-width: 0.5px;
+    border-radius: 10px;
+    width: 300px;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#bbTop{
+    text-align: center;
+    font-size: 30px;
+    color: red;
+    font-weight: bold;
+    padding: 30px;
+}
+
+#bbBut{
+    display: flex;
+    flex-direction: row;
+    padding-left: 25px;
+    padding-bottom: 30px;
+}
+.button1{
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: bold;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+    border: 1px solid gray;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 20px;
+}
+.button2{
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: bold;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border: 1px solid gray;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 20px;
+    padding-top: 25px;
+}
+
+#bbMid{
+    color: green;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#bbBot{
+    list-style-type: none;
+    padding-top: 10px;
+}
+#p1{
+    font-size: 16px;
+    color: darkslategray;
+}
+#p2{
+    font-size: 40px;
+    color: limegreen;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#p3{
+    font-size: 10px;
+    color: maroon;
+}
+#p4{
+    font-size: 40px;
+    color: darkolivegreen;
+    font-weight: bold;
+    padding-top: 30px;
+}
+#p5{
+    font-size: 10px;
+}
