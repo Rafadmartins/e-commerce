@@ -2,7 +2,7 @@ const path = require('path');
 
 const indexController ={
     exibirHome:((req, res)=>{
-        res.render(path.resolve("views/pages", "home"))
+        res.render("pages/home")
     }),
 
     exibirDetalhes:((req, res)=>{
