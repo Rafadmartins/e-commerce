@@ -1,4 +1,3 @@
-const path = require('path');
 
 const indexController ={
     exibirHome:((req, res)=>{
@@ -6,11 +5,11 @@ const indexController ={
     }),
 
     exibirDetalhes:((req, res)=>{
-        res.render(path.resolve("views/pages", "detalhes"))
+        res.render("pages/detalhes")
     }),
 
     exibirCategorias:((req, res)=>{
-        res.render(path.resolve("views/pages", "categorias"))
+        res.render("pages/categorias")
     }),
 }
 
