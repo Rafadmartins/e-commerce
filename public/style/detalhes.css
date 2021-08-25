@@ -2,6 +2,7 @@ header{
     display: flex;
     justify-content: space-between;
     height: 80px;
+    position: fixed;
 }
 
 body{

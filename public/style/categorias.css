@@ -127,3 +127,129 @@ input[type=range]{
   margin-left: 70px;
   font-size: 15px;
 }
+.precosMobile{
+  display: none;
+}
+.jurosMobile{
+  display: none;
+}
+
+@media(max-width: 375px){
+  .menu{
+    display: none;
+    
+  }
+  .icon-car{
+    width: 2%;
+  }
+  .icon{
+    max-width:20px;
+    max-height:20px;
+    width:  auto;
+    height: auto;
+    margin-left: 10px;
+    margin-top: 7px;
+  }
+  .menumobile{
+    cursor: pointer;
+  }
+  .menumobile div{
+    width: 20px;
+    height: 2px;
+    background-color: black;
+    margin: 7px;
+
+  }
+  .filtro{
+    display: none;
+  }
+  .produtos{
+    display: flex;
+    margin: -10px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .produto{
+    width: 300px;
+    height: 120px;
+    border: solid 1px grey;
+    display: flex;
+    border-radius: 8px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+  }
+  #imagem-produto{
+    width: 80px;
+      
+  }
+  .informacoes h2{
+    font-size: 10px; 
+    margin-bottom: 20px;
+    white-space: nowrap;
+    margin-left: 20px;
+    margin-bottom: 65px;
+  }
+  .disponivel{
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 70px;
+  }
+  .disponivel h3{
+    font-size: 10px;
+    margin-top: 10px;
+
+  }
+  .disponivel h4{
+    color: green;
+    font-size: 12px;
+  }
+  .precos{
+  margin-top: 80px;
+  display: flex;
+  margin-right: 400px;
+  display: none;
+  }
+  .precos h6{
+  font-size: 10px;
+  margin-left: 33px;
+  }
+  .precos h5{
+  font-size: 12px;
+  margin-left: 1px;
+  color: rebeccapurple;
+  }
+  .precos p{
+  font-size: 9px;
+  margin-left: 61px;
+  }
+  .precos h3{
+  display: none;
+  }
+  #avista{
+  margin-left: 70px;
+  font-size: 15px;
+  display: none;
+  }
+  .precosMobile{
+    display: inline;
+  }
+  .precosMobile h1{
+    font-size: 15px;
+    margin-left: -175px;
+  }
+  .precosMobile p{
+    font-size: 10px;
+  }
+  .jurosMobile{
+    display: inline;
+  }
+  .jurosMobile h5{
+    font-size: 8px;
+    white-space: nowrap;
+    margin-left: -175px;
+    margin-top: 30px;
+    color: green;
+
+  }
+}
