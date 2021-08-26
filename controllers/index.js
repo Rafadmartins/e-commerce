@@ -11,6 +11,9 @@ const indexController ={
     exibirCategorias:((req, res)=>{
         res.render("pages/categorias")
     }),
+    exibirCarrinho: ((req, res)=>{
+        res.render("pages/carrinho")
+    }),
 }
 
 module.exports = indexController;
