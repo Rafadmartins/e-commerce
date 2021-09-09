@@ -14,6 +14,9 @@ const indexController ={
     exibirCarrinho: ((req, res)=>{
         res.render("pages/carrinho")
     }),
+    exibirPerfil: ((req, res)=>{
+        res.render("pages/painel-usuario")
+    }),
 }
 
 module.exports = indexController;

@@ -290,3 +290,157 @@
     color: rgb(66, 70, 77);
 
   }
+  .valordosprodutos{
+    font-size: 0.75rem;
+    line-height: 1.125rem;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding: 0.25rem 0.5rem;
+    color: rgb(127, 133, 141);
+  }
+  .valordosprodutos b{
+    font-size: 1rem;
+    line-height: 1.75rem;
+    font-weight: 700;
+    color: rgb(66, 70, 77);
+  }
+  .linha{
+    width: 100%;
+    height: 0.0625rem;
+    background: rgb(222, 224, 228);
+  }
+  .frete2{
+    font-size: 0.75rem;
+    line-height: 1.125rem;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding: 0.25rem 0.5rem;
+    color: rgb(127, 133, 141);
+
+  }
+  .frete2 b{
+    font-size: 1rem;
+    line-height: 1.75rem;
+    font-weight: 700;
+    color: rgb(66, 70, 77);
+  }
+  .total{
+    font-size: 0.75rem;
+    line-height: 1.125rem;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    color: rgb(127, 133, 141);
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    padding: 0.5rem;
+    background: rgb(250, 250, 251);
+  }
+  .total2{
+    font-size: 1rem;
+    line-height: 1.75rem;
+    font-weight: 700;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    width: 100%;
+    color: rgb(66, 70, 77);
+  }
+  .total2 span{
+    font-size: 0.75rem;
+    line-height: 1.125rem;
+    font-weight: 400;
+    color: rgb(127, 133, 141);
+  }
+  .total2 b{
+    font-size: 1rem;
+    line-height: 1.75rem;
+    font-weight: 700;
+    color: rgb(66, 70, 77);
+  }
+  .total2 span b{
+    font-size: 0.75rem;
+    line-height: 1.125rem;
+    font-weight: 700;
+    color: inherit;
+  }
+  .totalboleto{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0px;
+    padding: 1rem;
+    background: rgb(229, 255, 241);
+    color: rgb(31, 144, 80);
+
+  }
+  .totalboleto2{
+    font-size: 1.875rem;
+    line-height: 2.375rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 0.25rem;
+
+  }
+  .totalboleto2 span{
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+
+  }
+  .botaopagamento{
+    width: 100%;
+    height: 48px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    border: 1px solid rgb(141, 0, 0);
+    background-color: rgb(255, 0, 0);
+    user-select: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease 0s;
+    border-radius: 0.25rem;
+  }
+  .botaopagamento2{
+    width: 100%;
+    height: 48px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    border: 1px solid rgb(255, 0, 0);
+    background-color: rgb(255, 255, 255);
+    user-select: none;
+    color: rgb(255, 0, 0);
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease 0s;
+    border-radius: 0.25rem;
+  }
+  #botaodepagamento{
+    margin-bottom: 1rem;
+    cursor: pointer;
+  }
+  #botaoparavoltar{
+    margin-bottom: 1rem;
+    cursor: pointer;
+  }
+  

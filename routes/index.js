@@ -8,5 +8,6 @@ routes.get('/home', indexController.exibirHome )
 routes.get('/detalhes', indexController.exibirDetalhes )
 routes.get('/categorias', indexController.exibirCategorias )
 routes.get('/carrinho', indexController.exibirCarrinho)
+routes.get('/painel-usuario', indexController.exibirPerfil)
 
 module.exports = routes;
