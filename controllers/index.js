@@ -17,6 +17,12 @@ const indexController ={
     exibirPerfil: ((req, res)=>{
         res.render("pages/painel-usuario")
     }),
+    exibirPagamento: ((req, res)=> {
+        res.render('pages/pagamento')
+    }),
+    exibirLogin: ((req, res)=> {
+        res.render('pages/login-cadastro')
+    }),
 }
 
 module.exports = indexController;

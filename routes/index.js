@@ -9,5 +9,7 @@ routes.get('/detalhes', indexController.exibirDetalhes )
 routes.get('/categorias', indexController.exibirCategorias )
 routes.get('/carrinho', indexController.exibirCarrinho)
 routes.get('/painel-usuario', indexController.exibirPerfil)
+routes.get('/pagamento', indexController.exibirPagamento)
+routes.get('/login-cadastro', indexController.exibirLogin)
 
 module.exports = routes;
